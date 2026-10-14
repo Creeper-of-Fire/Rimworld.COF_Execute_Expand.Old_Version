@@ -57,7 +57,7 @@ namespace COF_Torture.Data
         }
 
         private bool IsMasochistDefault() =>
-            Pawn?.story?.traits != null && Pawn.story.traits.HasTrait(TraitDefOf.Masochist);
+            Pawn.IsMasochist();
 
         private bool IsFixedDefault() =>
             Pawn?.health?.hediffSet?.GetFirstHediffOfDef(HediffDefOf.COF_Torture_Fixed) != null;

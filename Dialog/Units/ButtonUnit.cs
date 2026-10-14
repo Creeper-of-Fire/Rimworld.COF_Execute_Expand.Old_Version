@@ -85,6 +85,17 @@ namespace COF_Torture.Dialog.Units
             width = size.x + LittleBlankSize;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="_action">要执行的动作</param>
+        /// <param name="_label">显示的文字</param>
+        /// <param name="_desc">描述文字（浮窗显示）</param>
+        /// <param name="_disabled">不可用</param>
+        /// <param name="_disabledReason">不可用原因</param>
+        /// <param name="_inactive">不活跃</param>
+        /// <param name="_inactiveReason">不活跃原因</param>
+        /// <param name="_font">字体</param>
         public void InitInfo(Action _action, string _label, string _desc, bool _disabled = false,
             string _disabledReason = "", bool _inactive = false, string _inactiveReason = "",
             GameFont _font = GameFont.Small) =>

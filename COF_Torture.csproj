@@ -90,11 +90,11 @@
         <Compile Include="Component\HediffComp_SwitchAbleSeverity.cs" />
         <Compile Include="Component\HediffComp_ExecuteIndicatorWithEffector.cs" />
         <Compile Include="Component\HediffComp_ExecuteIndicator.cs" />
-        <Compile Include="Component\HediffComp_OrgasmIndicator.cs" />
         <Compile Include="Component\HediffComp_GetSexualHeat.cs" />
         <Compile Include="Data\DataUtility.cs" />
         <Compile Include="Dialog\DialogUtility.cs" />
         <Compile Include="Dialog\Dialog_ChoosePawn.cs" />
+        <Compile Include="Dialog\Dialog_MenuBase.cs" />
         <Compile Include="Dialog\Gizmo_List.cs" />
         <Compile Include="Dialog\Menus\VerticalMenu.cs" />
         <Compile Include="Dialog\Menus\VerticalTitleWithMenu.cs" />
@@ -105,6 +105,7 @@
         <Compile Include="Dialog\Dialog_TortureThingManager.cs" />
         <Compile Include="Dialog\Units\LabelWithUnits.cs" />
         <Compile Include="Genes\Gene_SpeedingRegeneration.cs" />
+        <Compile Include="Hediffs\Hediff_COF_Sexual_Gratification.cs" />
         <Compile Include="Hediffs\Hediff_COF_Torture_IsAbusing.cs" />
         <Compile Include="Hediffs\Hediff_NonExistPart.cs" />
         <Compile Include="Hediffs\Hediff_Orgasm.cs" />
@@ -146,6 +147,7 @@
         <Compile Include="Things\BuildingDef.cs" />
         <Compile Include="Things\Building_ToolChest.cs" />
         <Compile Include="Things\Building_TortureBed.cs" />
+        <Compile Include="Utility\AbuseUtility.cs" />
         <Compile Include="Utility\ActionWithBar.cs" />
         <Compile Include="Utility\DefOf\BodyPartTagDefOf.cs" />
         <Compile Include="Utility\DefOf\BuildingDefOf.cs" />
@@ -153,6 +155,7 @@
         <Compile Include="Utility\DefOf\GeneDefOf.cs" />
         <Compile Include="Utility\DefOf\HediffDefOf.cs" />
         <Compile Include="Utility\DefOf\ThingCategoryDefOf.cs" />
+        <Compile Include="Utility\ExposableList.cs" />
         <Compile Include="Utility\RJWUtility.cs" />
         <Compile Include="Utility\TortureUtility.cs" />
     </ItemGroup>
